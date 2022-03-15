@@ -1,0 +1,29 @@
+Before:
+
+[200~Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+
+During:
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  3      [ ]         STREAM     CONNECTED     21566    
+unix  3      [ ]         STREAM     CONNECTED     21559    
+unix  3      [ ]         STREAM     CONNECTED     21561    
+unix  3      [ ]         STREAM     CONNECTED     21560    
+unix  3      [ ]         STREAM     CONNECTED     21562    
+unix  3      [ ]         STREAM     CONNECTED     21563    
+unix  3      [ ]         STREAM     CONNECTED     21564    
+unix  3      [ ]         STREAM     CONNECTED     21565    
+
+After:
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+
